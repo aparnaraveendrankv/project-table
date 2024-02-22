@@ -1,4 +1,4 @@
-
+   steps of how we can run the code locally after cloning the repository
 Install Dependencies: React projects typically have dependencies that need to be installed. Use npm (Node Package Manager) .
    npm install in the console tab Then node modules installed
 After that
