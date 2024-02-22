@@ -1,4 +1,12 @@
 
+Install Dependencies: React projects typically have dependencies that need to be installed. Use npm (Node Package Manager) .
+   npm install in the console tab Then node modules installed
+After that
+Npm start then it open locally
+http://localhost:3000/
+
+
+File structure
  .
  ├── package.json
  ├── postcss.config.js
@@ -17,8 +25,11 @@
  │   ├── components --------- UI and Detected Common Components
  │   ├── constants ---------- Project constants, eg: string consts
  │   ├── hooks -------------- Helpful Hooks
- │   ├── index.jsx
- │   ├── pages -------------- All route pages
+ │   ├── index.js
+ │   ├── pages -------------- All route pages---Index.js Main  code file
+                --------------- interviewdata.json
+                ---------------Styles.css
+                           
  │   ├── Routes.jsx ---------- Routing
  │   ├── styles
  │   │   ├── index.css ------ Other Global Styles
@@ -28,4 +39,4 @@
  └── tailwind.config.js ----- Entire theme config, colors, fonts etc.
 ```
 
-build` folder.<br>
+
