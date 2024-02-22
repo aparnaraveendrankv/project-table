@@ -74,7 +74,6 @@ const InterviewtemplatePage = () => {
     }
     return false;
   });
-  
 
   return (
     <>
@@ -202,7 +201,7 @@ const InterviewtemplatePage = () => {
                   type="checkbox"
                   checked={selectAll}
                   onChange={handleMasterCheckboxChange}
-                  className="h-5 w-5 cursor-pointer mr-2"
+                  className="h-5 w-5 cursor-pointer mr-2 rounded-md"
                 />
                 <Text
                   className="ml-[25px] text-black-900 text-lg"
@@ -227,7 +226,7 @@ const InterviewtemplatePage = () => {
                       type="checkbox"
                       checked={selectAll}
                       onChange={handleMasterCheckboxChange}
-                      className="h-5 w-5 cursor-pointer mr-2"
+                      className="h-5 w-5 cursor-pointer mr-2 rounded-md"
                     />
                     <Text
                       className="md:ml-[0] ml-[25px] text-base text-gray-500"
