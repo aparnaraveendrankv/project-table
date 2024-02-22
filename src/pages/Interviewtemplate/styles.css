@@ -60,3 +60,7 @@ body {
   color: black; /* Change text color to black */
   background-color:  rgb(198, 196, 196); /* Change background color to grey */
 }
+.rounded-md {
+  border-radius: 7px; 
+  border: 1px solid  #6b7280;
+}
